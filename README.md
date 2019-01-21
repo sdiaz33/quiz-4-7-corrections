@@ -1,6 +1,8 @@
 # Quiz 4-7 Corrections
 
+
 ## Quiz 4
+
 ### Question 2
 I got this question wrong because I didn't know default values can be included in prompt statements. The question asked to prompt the user to ask to enter the number of hours the user they work in a week, to set a default value to be pre-populated with the value 40, and to store the user's response in a variable named `hours`. The correct answer was a prompt with the specifics of the questions and saved under the `hours` variable. It also puts the default value of 40 after the written prompt, which I didn't know could be done.  
 
@@ -22,6 +24,7 @@ This was a programming question for which I lost only a few points, but I could 
 
 
 ## Quiz 5
+
 ### Question 2
 This was another multiple-select question where I missed correct answers and chose an incorrect one. This question asked for valid relational operators in Javascript and I chose `<=`, `>`, `>=`, `=`, and `<`. Four out of these five were correct and I missed four correct answers. Thus, I incorrectly picked `=`, when instead I should've picked `!==`, `!=`, `==`, and `===`. 
 
@@ -61,6 +64,7 @@ while (x > 100) {
 
 
 ## Quiz 6
+
 ### Question 3
 This question asked which of the following can you determine based on the information provided. This was a multiple-select question and here I chose one correct answer, missed another correct answer, and chose two incorrect answers. The two correct answers were: the function is not designed to accept any parameters and the name of the function is `mystery`. 
 
@@ -117,4 +121,27 @@ The answer I chose was that a ReferenceError will occur on line 10 and the corre
 
 
 ## Quiz 7
-### Question 
+
+### Question 3
+I got this question wrong because I did not understand the behavior and functionality of the `mystery` function provided. The answer I chose states that it returns `true` if some array, `a`, contains at least one instance of some value, `b`; otherwise, returns `false`. The correct answer states that it returns the index at which some value, `b`, is found in some array, `a`; otherwise, returns -1 if `b` is not found in `a`.
+
+### Question 5
+This was a multiple-select question that asked which `if` statements would print the provided statement. I lost points on this question because I chose three correct answers and one incorrect answer. I didn't realize that each of the correct answers use a built-in method, either `indexOf`, `includes`, or `lastIndexOf`. 
+
+### Question 6
+This was a multiple-select question which asked which of the following implementations would accept an array of elements and print each one to the screen one-by-one. I chose one correct answer, two incorrect answers, and missed one correct answer. I didn't understand the `for` loop for this implementation. 
+
+### Question 9
+This question asked which of the following sets of test data demonstates that `getLargest` does not work as intended. I chose the array filled with only zeros because it makes sense they are all the same value. The correct answer was `[ -9, -1, -8, -2, -7, -3, -6, -4, -5 ]` and I think it was because they were all negative numbers.
+
+### Question 12 
+The question asked what would be the value of `tripleDigits` after executing this provided code. I got this question wrong simply because I chose false instead of true because I thought since `4444` was included in the array and it didn't satisy the return parameters, the answer had to be false. 
+
+### Question 14
+I got this question wrong because I missed two correct answers, but chose one correct. The question provides the following code:
+```
+let a = [];
+let b = [ 1, 2, 3 ];
+let c = [ "a", "b", "c" ];
+```
+It asked which of the following represent the contents of each of these arrays, I chose `a, b, c`, and missed an empty array and `1, 2, 3` because I second guessed myself after choosing them so I unchose those answers. 
